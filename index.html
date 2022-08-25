@@ -4,64 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="grid.css">
-    <title>ituchanga</title>
+    <title>Ituchanga</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 <body>
-    <div id="grilla">
-        <header id="barrasuperior" class="border">
-            <div><img id="logo" src="fotos/ituchanga logo version 2_Mesa de trabajo 1.png"></div>
-            <div><img id="perfil" src="fotos/Elipse_1.png" alt=""></div>
-        </header>
-        <section id="buscador" class="border"> <form>
-            <input id="buscar" type="search" name="q" placeholder="Buscar oficios">
-            <img src="iconos/search-interface-symbol.png" width="10"></img>
-            <input type="submit" value="Buscar"> 
-          </form>  </section>
-        <section id="oficios" class="border"><h2>Oficios</h2>
-            <div class="grid-layout">
-                <div class="caja">Aires</div>
-                <div class="caja">Albañil</div>
-                <div class="caja">Automatización</div>
-                <div class="caja">Albercas</div>
-                <div class="caja">Aparatos</div>
-                <div class="caja">Carpintería</div> 
-                <div class="caja">Cerrajería</div>
-                <div class="caja">Cortinas</div>
-                <div class="caja">Costurerías</div>
-                <div class="caja">Electricidad</div>
-                <div class="caja">Estética Automotor</div>
-                <div class="caja">Fumigación</div>
-                <div class="caja">Herrería</div>
-                <div class="caja">Jardinería</div>
-                <div class="caja">Lavado de tapizado</div>
-              </div>
-        </section>
-        <nav class="border"><h2>Navegación</h2>
-            <ul>
-                <li>Inicio</li>
-                <li>Noticias</li>
-                <li>Iniciar sesion</li>
-                <li>Perfil</li>
-                <li>Notificaciones</li>
-                <li>Contactos</li>
-                <li>Temas</li>
-                <li>Mensajes</li>
-                <li>Top de la semana</li>
-                <li>Configuraciones</li>
-                <li>Buscar</li>
-              </ul>
-        </nav>
-
-        <footer id="piedepagina" class="border">
-            <div>
-                <div>
-                <H2>Plataforma de oficios</H2>
-                <h3>Año 2022</h3>
-                <h4>Todos los derechos reservados</h4>
-              </div>
-        </footer>
-   </div>
-   
+    <header class="py-3 mb-3 border-bottom">
+        <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+          <div class="dropdown">
+              <img src="ituchanga logo_Mesa de trabajo 1.png" class="bi me-2" width="200px" height="20px"><use xlink:href="#bootstrap"></use></img>
+           
+          </div>
+    
+          <div class="d-flex align-items-center">
+            <form class="w-100 me-3" role="search">
+              <input type="search" class="form-control" placeholder="Buscar oficios..." aria-label="Search">
+            </form>
+    
+            <div class="flex-shrink-0 dropdown">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container-fluid pb-3">
+        <div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
+          <div class="bg-light border rounded-3" style="text-decoration: none;">
+            <strong>Navegación</strong>
+           <div style="text-decoration: none;">
+            <li><a>Inicio</a></li>
+            <li><a>Temas</a></li>
+            <li><a>Mensajes</a></li>
+            <li><a>Favoritos</a></li>
+            <li><a>Top de la semana</a></li>
+            <li><a>Perfil</a></li><li><a>Configuraciones</a></li>
+            <li><a>Buscar</a></li>
+            <li><a>Cerrar sesión</a></li>
+        </div>
+            <br><br><br><br><br><br><br><br><br><br>
+          </div>
+          <div class="bg-light border rounded-3">
+            <span class="border bottom">Aires</span>
+            <span class="border bottom">Albañil</span>
+            <span class="border bottom">Albercas</span>
+            <span class="border bottom">Aparatos</span>
+            <span class="border bottom">Automatización</span>
+            <br><br><br><br><br><br><br><br><br><br>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
