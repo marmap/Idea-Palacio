@@ -1,0 +1,49 @@
+body {
+  background-color: #ffffff;
+  font-family: "Raleway";
+  display: grid;
+  text-decoration: none;
+}
+body a {
+  padding-top: 50%;
+  color: white;
+  padding: 10px 10px 10px;
+  text-align: none;
+  font: bold;
+}
+body a :hover {
+  height: 80px;
+}
+body ul {
+  padding: 10px;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+  list-style: none;
+}
+body i:hover {
+  color: white;
+  background: #4D334D;
+}
+body .caja {
+  width: 150px;
+  height: 50px;
+  border: 1px solid gainsboro;
+  border-style: groove;
+  border-radius: 5%;
+  background-color: lightgray;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  float: left;
+  box-shadow: 2px 2px 5px #4D334D;
+}
+body .caja :hover {
+  color: white;
+  background: #9A6699;
+}
+body .pie-pagina {
+  width: 100%;
+  height: 150px;
+  color: aliceblue;
+  background-color: #4D334D;
+}/*# sourceMappingURL=estilos.css.map */
